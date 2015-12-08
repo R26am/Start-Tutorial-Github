@@ -24,10 +24,11 @@ var
   Form1: TForm1;
   i : integer;
 implementation
-                                                                             //std is not reporting a transmitted sex virus lol its letting you delphi know its calling a external dll
+ //std is not reporting a transmitted sex virus lol its letting you delphi know its calling a external dll
 procedure TimerProc(hwnd : hwnd; uMsg: UINT; idEvent: UINT; dwTimer: DWORD); stdcall
-begin   //uint is the same as dword its a unsign integer you can do either one I just went with delphi help file :p
-//cases of what part of the timer your going to use
+begin   
+  //uint is the same as dword its a unsign integer you can do either one I just went with delphi help file :p
+  //cases of what part of the timer your going to use
 case idEvent of
 2000:
 begin
